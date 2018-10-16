@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify that user is able to Register</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 1. open : http://medmaxpharmacy.com/</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>--->  Home page is open  <---]]>
+    </line>
+    <line>
+      <![CDATA[</br><br><Strong><font color=#008000>Pass</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 2. Click on Register Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 3. Enter Details for the Registration</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>=======> Enter Your Personal Details <=======]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Firstname <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Lastname <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Email Address <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Phone Number <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Fax Number <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>=======> Enter Your Address Details <=======]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Company Name <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered First Line of the Address <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Second Line of the Address <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered City <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered Post Code <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Select the Country <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Select the state <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>=======> Enter Password Details <=======]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Entered password <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Select confirm password <-------]]>
+    </line>
+    <line>
+      <![CDATA[</br>-------> Clicked on the Terms and Conditions <-------]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 4. Click on Continue Button to Register</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify that user is able to Login</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 1. open : http://medmaxpharmacy.com/</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>--->  Home page is open  <---]]>
+    </line>
+    <line>
+      <![CDATA[</br><br><Strong><font color=#008000>Pass</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 2. Click on Login Button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 3. Enter Email for Login</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 4. Enter Password For Login</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step 5. Click on Login Button</strong></br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Med Max - Test Suite 1" duration-ms="170761" started-at="2018-10-16T11:21:04Z" finished-at="2018-10-16T11:23:55Z">
+    <groups>
+    </groups>
+    <test name="Register as new User:: 01" duration-ms="102420" started-at="2018-10-16T11:21:04Z" finished-at="2018-10-16T11:22:46Z">
+      <class name="com.index.GeneralIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.GeneralIndex@69a3d1d]" name="fetchSuiteConfiguration" is-config="true" duration-ms="33" started-at="2018-10-16T11:21:04Z" finished-at="2018-10-16T11:21:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50d0686]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.GeneralIndex@69a3d1d]" name="setUp" is-config="true" duration-ms="16234" started-at="2018-10-16T11:21:04Z" finished-at="2018-10-16T11:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.index.GeneralIndex.register_med_max()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@50d0686]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="register_med_max()[pri:0, instance:com.index.GeneralIndex@69a3d1d]" name="register_med_max" duration-ms="70140" started-at="2018-10-16T11:21:20Z" finished-at="2018-10-16T11:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify that user is able to Register</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 1. open : http://medmaxpharmacy.com/</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>--->  Home page is open  <---]]>
+            </line>
+            <line>
+              <![CDATA[</br><br><Strong><font color=#008000>Pass</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 2. Click on Register Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 3. Enter Details for the Registration</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>=======> Enter Your Personal Details <=======]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Firstname <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Lastname <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Email Address <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Phone Number <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Fax Number <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>=======> Enter Your Address Details <=======]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Company Name <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered First Line of the Address <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Second Line of the Address <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered City <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered Post Code <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Select the Country <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Select the state <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>=======> Enter Password Details <=======]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Entered password <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Select confirm password <-------]]>
+            </line>
+            <line>
+              <![CDATA[</br>-------> Clicked on the Terms and Conditions <-------]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 4. Click on Continue Button to Register</strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register_med_max -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.GeneralIndex@69a3d1d]" name="tearDown" is-config="true" duration-ms="15978" started-at="2018-10-16T11:22:31Z" finished-at="2018-10-16T11:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register_med_max status=SUCCESS method=GeneralIndex.register_med_max()[pri:0, instance:com.index.GeneralIndex@69a3d1d] output=<strong> <h3 style="color:DarkViolet"> To verify that user is able to Register</h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.index.GeneralIndex -->
+    </test> <!-- Register as new User:: 01 -->
+    <test name="Login as Register User:: 02" duration-ms="68262" started-at="2018-10-16T11:22:47Z" finished-at="2018-10-16T11:23:55Z">
+      <class name="com.index.GeneralIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.GeneralIndex@7a9273a8]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2018-10-16T11:22:47Z" finished-at="2018-10-16T11:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a3d45bd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.GeneralIndex@7a9273a8]" name="setUp" is-config="true" duration-ms="19306" started-at="2018-10-16T11:22:47Z" finished-at="2018-10-16T11:23:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.index.GeneralIndex.Login_med_max()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a3d45bd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_med_max()[pri:0, instance:com.index.GeneralIndex@7a9273a8]" name="Login_med_max" duration-ms="35872" started-at="2018-10-16T11:23:06Z" finished-at="2018-10-16T11:23:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify that user is able to Login</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 1. open : http://medmaxpharmacy.com/</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>--->  Home page is open  <---]]>
+            </line>
+            <line>
+              <![CDATA[</br><br><Strong><font color=#008000>Pass</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 2. Click on Login Button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 3. Enter Email for Login</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 4. Enter Password For Login</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step 5. Click on Login Button</strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_med_max -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.GeneralIndex@7a9273a8]" name="tearDown" is-config="true" duration-ms="13077" started-at="2018-10-16T11:23:42Z" finished-at="2018-10-16T11:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_med_max status=SUCCESS method=GeneralIndex.Login_med_max()[pri:0, instance:com.index.GeneralIndex@7a9273a8] output=<strong> <h3 style="color:DarkViolet"> To verify that user is able to Login</h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.index.GeneralIndex -->
+    </test> <!-- Login as Register User:: 02 -->
+  </suite> <!-- Med Max - Test Suite 1 -->
+</testng-results>

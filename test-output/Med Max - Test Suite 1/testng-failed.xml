@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Med Max - Test Suite 1]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <parameter name="selenium.url" value="http://medmaxpharmacy.com/"/>
+  <listeners>
+    <listener class-name="com.utility.TestListener"/>
+    <listener class-name="com.utility.CustomReporterTestFailureDetails"/>
+    <listener class-name="com.utility.CustomReporterTestpassDetails"/>
+    <listener class-name="com.utility.CustomReporterTestskipDetails"/>
+    <listener class-name="com.utility.CustomReporterBuildSummary"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="Login as Register User:: 02(failed)" parallel="tests">
+    <classes>
+      <class name="com.index.GeneralIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Login_med_max"/>
+        </methods>
+      </class> <!-- com.index.GeneralIndex -->
+    </classes>
+  </test> <!-- Login as Register User:: 02(failed) -->
+</suite> <!-- Failed suite [Med Max - Test Suite 1] -->
